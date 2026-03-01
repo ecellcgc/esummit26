@@ -20,9 +20,9 @@ function PastGuestsSection() {
     },
     {
       id: 3,
-      name: "Nileshh Kataria",
-      post: "Entrepreneur",
-      designation: "Personal Branding Expert",
+      name: "Love Babbar",
+      post: "CodeHelp",
+      designation: "Tech Influencer · Ex-Microsoft/Amazon",
       description: "Founder of 'Speak To Uplift' and a top voice on LinkedIn specializing in digital marketing and helping professionals build digital authority.",
       image: "/assets/Nileshh Kataria.png",
     },
@@ -81,9 +81,9 @@ function PastGuestsSection() {
                     {guest.post}
                     {guest.designation && ` · ${guest.designation}`}
                   </p>
-                  <p className="font-sans text-white/70 text-sm max-[600px]:text-base sm:text-sm m-0 leading-relaxed line-clamp-4">
+                  {/* <p className="font-sans text-white/70 text-sm max-[600px]:text-base sm:text-sm m-0 leading-relaxed line-clamp-4">
                     {guest.description}
-                  </p>
+                  </p> */}
                 </div>
               </div>
             ))}

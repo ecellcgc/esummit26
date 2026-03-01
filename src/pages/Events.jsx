@@ -28,7 +28,7 @@ const EVENTS_DATA = [
     shortDescription:
       "The premier startup investment competition of E-Summit 2026. Teams pitch to investors in a boardroom-style funding simulation focused on scalability and execution.",
     image: "/assets/pitch.jpeg",
-    date: "February 25, 2026",
+    date: "18-19 March, 2026",
     time: "10:00 AM",
     location: "Block 10 Audi / Central Park, CGC Landran",
     fullDescription:
@@ -52,7 +52,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Build the strongest squad within a fixed virtual budget through a live auction. Strategy, risk management, and team coordination—sports excitement meets business.",
     image: "/assets/ipl.jpeg",
-    date: "February 25–26, 2026",
+    date: "18-19 March, 2026",
     time: "11:00 AM",
     location: "Block 10 / Board Room, CGC Landran",
     fullDescription:
@@ -76,7 +76,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Live paper trading competition with virtual capital under real market conditions. Build trading and risk-management skills with a real-time leaderboard.",
     image: "/assets/trade.jpeg",
-    date: "February 25, 2026",
+    date: "18-19 March, 2026",
     time: "02:00 PM",
     location: "Block 10, CGC Landran",
     fullDescription:
@@ -100,7 +100,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Step into the CMO role: create a full go-to-market strategy from a brief, film a one-take ad, and defend your brand before an expert jury.",
     image: "/assets/marketing.jpeg",
-    date: "February 26, 2026",
+    date: "18-19 March, 2026",
     time: "10:00 AM",
     location: "Board Room / Central Park, CGC Landran",
     fullDescription:
@@ -126,7 +126,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Exhibition platform where innovators showcase products and solutions. Direct interaction with investors, mentors, and industry professionals.",
     image: "/assets/expo.jpeg",
-    date: "February 25–26, 2026",
+    date: "18-19 March, 2026",
     time: "10:00 AM – 5:00 PM",
     location: "Central Park / Exhibition Area, CGC Landran",
     fullDescription:
@@ -151,7 +151,7 @@ const EVENTS_DATA = [
     shortDescription:
       "An insightful session on India's startup ecosystem—opportunities, challenges for founders, and trends shaping the next decade.",
     image: "/assets/session1.jpeg",
-    date: "February 25, 2026",
+    date: "18-19 March, 2026",
     time: "10:30 AM",
     location: "Main Audi, CGC Landran",
     fullDescription:
@@ -175,7 +175,7 @@ const EVENTS_DATA = [
     shortDescription:
       "A candid conversation with industry leaders on AI, rapid delivery, and fintech reshaping businesses and consumer behavior.",
     image: "/assets/fireside.jpeg",
-    date: "February 25, 2026",
+    date: "18-19 March, 2026",
     time: "02:00 PM",
     location: "Main Audi, CGC Landran",
     fullDescription:
@@ -199,7 +199,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Expert-led session by Upstox on financial markets, trading fundamentals, and wealth creation strategies.",
     image: "/assets/finance.jpeg",
-    date: "February 26, 2026",
+    date: "18-19 March, 2026",
     time: "10:00 AM",
     location: "Main Audi, CGC Landran",
     fullDescription:
@@ -223,7 +223,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Interactive workshop on validating ideas, understanding customer needs, and refining products for real product–market fit.",
     image: "/assets/product.jpeg",
-    date: "February 26, 2026",
+    date: "18-19 March, 2026",
     time: "11:30 AM",
     location: "Parallel Block 2, CGC Landran",
     fullDescription:
@@ -248,7 +248,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Connect young innovators and students with professionals, mentors, and entrepreneurs. Share ideas and build relationships.",
     image: "/assets/net1.jpeg",
-    date: "February 25, 2026",
+    date: "18-19 March, 2026",
     time: "04:00 PM",
     location: "Central Park / Networking Zone, CGC Landran",
     fullDescription:
@@ -272,7 +272,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Companies and startups offer internship opportunities. Explore roles, meet recruiters, and discover pathways to real-world experience.",
     image: "/assets/net3.jpeg",
-    date: "February 25–26, 2026",
+    date: "18-19 March, 2026",
     time: "11:00 AM – 3:00 PM",
     location: "Exhibition Area, CGC Landran",
     fullDescription:
@@ -296,7 +296,7 @@ const EVENTS_DATA = [
     shortDescription:
       "Exclusive networking dinner with founders, investors, and student leaders. Build meaningful connections in a relaxed setting.",
     image: "/assets/net4.jpeg",
-    date: "February 26, 2026",
+    date: "18-19 March, 2026",
     time: "07:00 PM",
     location: "Venue TBA, CGC Landran",
     fullDescription:
