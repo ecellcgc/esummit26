@@ -13,34 +13,118 @@ import {
 } from "@/lib/api";
 
 const PASSES = [
-  {
-    id: "expo",
-    slug: "expo",
-    name: "Expo Visitor Pass",
-    subtitle: "₹99",
-    price: "FREE",
-    basePrice: 0,
-    theme: "purple",
-    buttonAttrs: {
-      "data-tally-open": "VLZo1g",
-      "data-tally-layout": "modal",
-      "data-tally-width": "800",
-      "data-tally-auto-close": "120000",      
-    },
-    featuresIncluded: [
-      "Startup Expo",
-      "Brand booths",
-      "Demo zones",
-      "Stage activities (if public)",
-    ],
-    featuresExcluded: [
-      "No competitions",
-      "No premium workshops",
-      "No priority seating",
-      "No certificates",
-      "No closed sessions",
-    ],
-  },
+  // {
+  //   id: "expo",
+  //   slug: "expo",
+  //   name: "Expo Visitor Pass",
+  //   subtitle: "₹99",
+  //   price: "FREE",
+  //   basePrice: 0,
+  //   theme: "purple",
+  //   buttonAttrs: {
+  //     "data-tally-open": "VLZo1g",
+  //     "data-tally-layout": "modal",
+  //     "data-tally-width": "800",
+  //     "data-tally-auto-close": "120000",      
+  //   },
+  //   featuresIncluded: [
+  //     "Startup Expo",
+  //     "Brand booths",
+  //     "Demo zones",
+  //     "Stage activities (if public)",
+  //   ],
+  //   featuresExcluded: [
+  //     "No competitions",
+  //     "No premium workshops",
+  //     "No priority seating",
+  //     "No certificates",
+  //     "No closed sessions",
+  //   ],
+  // },
+
+
+
+
+  // {
+  //   id: "general",
+  //   slug: "general",
+  //   name: "General Delegate Pass",
+  //   subtitle: "₹199",
+  //   price: "₹99",
+  //   basePrice: 99,
+  //   theme: "red",
+  //   buttonAttrs: {
+  //     "data-tally-open": "q4bYdG",
+  //     "data-tally-layout": "modal",
+  //     "data-tally-width": "800",
+  //     "data-tally-auto-close": "120000", 
+  //   },
+  //   featuresIncluded: [
+  //     "Access to speaker sessions",
+  //     "Expo area",
+  //     "Networking zones",
+  //     "Basic activities",
+  //     "Entry to all closed events",
+  //     "Participation Certificate",
+  //   ],
+  //   featuresExcluded: [
+  //     "X Premium competitions",
+  //   ],
+  // },
+  // {
+  //   id: "competition",
+  //   slug: "competition",
+  //   name: "Competition Passes",
+  //   subtitle: "₹299",
+  //   price: "₹199",
+  //   basePrice: 199,
+  //   theme: "blue",
+  //   buttonAttrs: {
+  //     "data-tally-open": "GxrYDk",
+  //     "data-tally-layout": "modal",
+  //     "data-tally-width": "800",
+  //     "data-tally-auto-close": "120000", 
+  //   },
+  //   featuresIncluded: [
+  //     "Entry to any competition(s)",
+  //     "General Summit access included",
+  //     "Prize eligibility",
+  //     "Entry to competitions",
+  //     "Fast-track registration",
+  //     "Special certificate",
+  //     "Leaderboard eligibility",
+  //     "Extra prizes",
+  //   ],
+  //   featuresExcluded: [],
+  // },
+  // {
+  //   id: "premium",
+  //   slug: "premium",
+  //   name: "Premium Passes",
+  //   subtitle: "₹799",
+  //   price: "₹499",
+  //   basePrice: 499,
+  //   theme: "green",
+  //   buttonAttrs: {
+  //     "data-tally-open": "aQBZDB",
+  //     "data-tally-layout": "modal",
+  //     "data-tally-width": "800",
+  //     "data-tally-auto-close": "120000", 
+  //   },
+  //   featuresIncluded: [
+  //     "All sessions",
+  //     "Priority seating at event",
+  //     "Goodie kit",
+  //     "All competitions access",
+  //     "Networking lounge",
+  //     "Speaker meet & greet",
+  //     "Premium certificate",
+  //   ],
+  //   featuresExcluded: [],
+  // },
+
+
+
   {
     id: "general",
     slug: "general",
@@ -56,8 +140,9 @@ const PASSES = [
       "data-tally-auto-close": "120000", 
     },
     featuresIncluded: [
-      "Access to speaker sessions",
-      "Expo area",
+      "All Speaker Session Entry",
+      // ""
+      "Startup Expo area",
       "Networking zones",
       "Basic activities",
       "Entry to all closed events",
@@ -93,13 +178,14 @@ const PASSES = [
     ],
     featuresExcluded: [],
   },
+
   {
     id: "premium",
     slug: "premium",
-    name: "Premium Passes",
-    subtitle: "₹799",
-    price: "₹499",
-    basePrice: 499,
+    name: "Professional Passes",
+    subtitle: "₹999",
+    price: "₹699",
+    basePrice: 699,
     theme: "green",
     buttonAttrs: {
       "data-tally-open": "aQBZDB",
@@ -111,7 +197,7 @@ const PASSES = [
       "All sessions",
       "Priority seating at event",
       "Goodie kit",
-      "All competitions access",
+      // "All competitions access",
       "Networking lounge",
       "Speaker meet & greet",
       "Premium certificate",
