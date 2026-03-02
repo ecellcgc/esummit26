@@ -140,16 +140,22 @@ const PASSES = [
       "data-tally-auto-close": "120000", 
     },
     featuresIncluded: [
-      "All Speaker Session Entry",
-      // ""
+      "Keynote Speaker Session",
       "Startup Expo area",
+      "E-Workshop",
+      "Fireside Chat",
+      "Upstox Finance Session",
       "Networking zones",
       "Basic activities",
       "Entry to all closed events",
       "Participation Certificate",
     ],
     featuresExcluded: [
-      "X Premium competitions",
+      "Premium competitions",
+      "PITCH TANK (Idea Pitching)",
+      "IPL Auction",
+      "Mock Market Trading",
+      "Sell Your Soul",
     ],
   },
   {
@@ -167,14 +173,17 @@ const PASSES = [
       "data-tally-auto-close": "120000", 
     },
     featuresIncluded: [
-      "Entry to any competition(s)",
-      "General Summit access included",
+      "E-Summit access included",
+      "PITCH TANK (Idea Pitching)",
+      "IPL Auction",
+      "Mock Market Trading",
+      "Sell Your Soul",
       "Prize eligibility",
-      "Entry to competitions",
+      "Networking zones",
       "Fast-track registration",
-      "Special certificate",
       "Leaderboard eligibility",
       "Extra prizes",
+      "Special certificate",
     ],
     featuresExcluded: [],
   },
@@ -194,12 +203,13 @@ const PASSES = [
       "data-tally-auto-close": "120000", 
     },
     featuresIncluded: [
-      "All sessions",
+      "All speaker sessions",
+      "Access to Startup EXPO",
       "Priority seating at event",
       "Goodie kit",
       // "All competitions access",
-      "Networking lounge",
-      "Speaker meet & greet",
+      "Networking lounge Access",
+      "Guest Speaker meet & greet",
       "Premium certificate",
     ],
     featuresExcluded: [],
@@ -878,7 +888,7 @@ export default function LongPasses() {
 
         {/* User passes removed from the public passes page as requested */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 items-stretch">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
           {PASSES.map((pass) => {
             const status = getStatusForSlug(pass.slug);
             const highestAmount = highestApproved?.passType?.amountCents ?? 0;

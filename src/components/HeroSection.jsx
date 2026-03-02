@@ -110,6 +110,12 @@ function HeroSection({ scrollToPage }) {
             <span>Passes</span>
             <ArrowRight size={18} className="transition-transform duration-300 group-hover:translate-x-0.5" />
           </Link>
+          <Link
+              to="/events"
+              className="group flex flex-row items-center justify-center gap-2.5 py-3 px-6 rounded-full min-w-[140px] font-sans bg-purple-600/40 hover:bg-purple-500 border border-purple-400/20 text-white font-semibold text-sm tracking-widest uppercase shadow-[0_4px_20px_rgba(168,85,247,0.25)] transition-all duration-300 hover:shadow-[0_6px_24px_rgba(168,85,247,0.35)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-400 focus-visible:ring-offset-2 focus-visible:ring-offset-black max-[600px]:py-2.5 max-[600px]:px-5 max-[600px]:min-w-[120px] max-[600px]:text-xs"
+            >
+              Events
+            </Link>
         </div>
   {/* reduced horizontal and vertical margins so dates sit closer to the passes CTA */}
   <span className="text-white text-sm mx-2 mb-2 md:mx-20 md:mb-8">Buy passes to attend E-Summit.</span>

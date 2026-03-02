@@ -1,10 +1,10 @@
 import React from 'react'
 
 const partners = [
-  { id: 1, name: 'cgc', logo: '/assets/cgc.png', url: '#' },
-  { id: 2, name: 'coe', logo: '/assets/coe.png', url: '#' },
   { id: 3, name: 'E-Cell CGC', logo: '/assets/ecl_logo.png', url: '#' },
   { id: 4, name: 'rise', logo: '/assets/RISE.png', url: '#' },
+  { id: 1, name: 'cgc', logo: '/assets/cgc.png', url: '#' },
+  { id: 2, name: 'coe', logo: '/assets/coe.png', url: '#' },
 ]
 
 function PartnersSection() {
@@ -21,9 +21,11 @@ function PartnersSection() {
       <div className="relative z-10 w-full max-w-6xl mx-auto px-6">
         <div className="text-center mb-8">
           <h2 className="font-sans text-[clamp(28px,4vw,44px)] text-white font-bold uppercase tracking-[2px] m-0">
-            PARTNERS
+            {/* PARTNERS */}
+            ORGANIZERS
           </h2>
-          <p className="font-sans text-xs sm:text-sm text-white/50 tracking-widest uppercase mt-2 m-0">Our proud collaborators</p>
+          {/* <p className="font-sans text-xs sm:text-sm text-white/50 tracking-widest uppercase mt-2 m-0">Our proud collaborators</p> */}
+          <p className="font-sans text-xs sm:text-sm text-white/50 tracking-widest uppercase mt-2 m-0">Our proud organizers & venue</p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 items-center justify-center mt-6">
