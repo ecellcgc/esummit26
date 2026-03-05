@@ -888,12 +888,24 @@ export default function LongPasses() {
 
         {/* User passes removed from the public passes page as requested */}
 
-        <div className="max-w-3xl mx-auto text-center py-12">
-          <div className="rounded-2xl bg-zinc-900/80 border border-white/10 p-8">
-            <h3 className="text-2xl font-bold text-white mb-2">Registration Temporarily Closed</h3>
-            <p className="text-white/60">Registration is temporarily closed and will resume soon! Please check back later.</p>
-            <a href="https://www.instagram.com/ecell.cgc" className="text-purple-600 hover:text-red-700 hover:cursor-pointer">Click here to stay updated on Instagram</a>
-          </div>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+          {PASSES.map((pass) => {
+            const status = getStatusForSlug(pass.slug);
+            const highestAmount = highestApproved?.passType?.amountCents ?? 0;
+            const shouldUpgrade =
+              !status && hasApprovedPass && pass.basePrice > 0 && pass.basePrice * 100 > highestAmount;
+
+            return (
+              <PassCard
+                key={pass.id}
+                pass={pass}
+                onRegister={loggedIn ? handleRegisterClick : null}
+                onUpgrade={loggedIn ? handleCardUpgradeClick : null}
+                isUpgrade={shouldUpgrade}
+                userPassStatus={status}
+              />
+            );
+          })}
         </div>
       </div>
 
