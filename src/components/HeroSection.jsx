@@ -98,7 +98,7 @@ function HeroSection({ scrollToPage }) {
           className="block w-[85vw] max-w-[320px] h-auto max-h-full object-contain object-center mx-auto drop-shadow-[0_0_24px_rgba(168,85,247,0.4)]"
         />
       </div>
-      <div className="relative text-xl font-bold text-orange-500 text-center mt-60 px-4 z-[2] pointer-events-auto">
+      <div className="relative text-xl font-bold text-orange-500 text-center mt-40 px-4 z-[2] pointer-events-auto">
         Please wait for the announcement of new dates.
         </div>
       {/* Bottom: CTA buttons, date/venue, scroll button, social icons */}
